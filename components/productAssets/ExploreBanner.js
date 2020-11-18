@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import ProductsBanner from '../../components/homepage/ProductsBanner';
 
 export default class ExploreBanner extends React.Component {
   constructor(props) {
@@ -55,10 +56,10 @@ export default class ExploreBanner extends React.Component {
                   <div className="position-relative">
                     <div className="position-md-absolute right-0 left-0 bottom-0">
                       <div
-                        ref={this.image}
-                        className="explore-banner--image"
+                        ref={this.image}       
                       />
                     </div>
+                      <ProductsBanner />
                   </div>
                 </div>
               </div>
@@ -73,12 +74,12 @@ export default class ExploreBanner extends React.Component {
                   className="font-size-display3 font-weight-light mb-4"
                   style={{ maxWidth: '20rem' }}
                 >
-                  A new shopping experience
+                   
                 </p>
                 <div className="d-flex">
                   <Link href="/collection">
-                    <a className="d-flex py-3 align-items-center font-color-black borderbottom border-color-black">
-                      <p className="mr-3">Explore products</p>
+                    <a   >
+                      <p style={{color:`#39603D`}} className="mr-3">Explore products</p>
                       <img src="/icon/arrow-long-right.svg" />
                     </a>
                   </Link>

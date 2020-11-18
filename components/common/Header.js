@@ -124,7 +124,7 @@ class Header extends Component {
     const { transparent, cart } = this.props;
 
     return (
-      <header className="position-fixed top-0 left-0 right-0 font-weight-semibold no-print">
+      <header className="position-fixed top-0 left-0 right-0 font-weight-semibold  ">
         <Cart isOpen={showCart} toggle={value => this.toggleCart(value)} />
         <div
           ref={this.header}
@@ -134,11 +134,12 @@ class Header extends Component {
         >
           <div className="d-none d-sm-flex">
             <Link href="/collection">
-              <a href="/collection" className="mr-4 font-color-black">Shop</a>
+              <a href="/collection" style={{color:`#39603D`,marginLeft: `2.5em`}}>Shop </a>
             </Link>
+            
             <Link href="/about">
-              <a href="/about" className="font-color-black">
-                About
+              <a href="/about" style={{color:`#39603D`,marginLeft: `2.5em`}}>
+                 About
               </a>
             </Link>
           </div>
@@ -149,19 +150,15 @@ class Header extends Component {
               className="w-32 mr-1 d-block d-sm-none"
               alt="Menu icon"
             />
-            <Link href="/">
-              <a>
-                <img
-                  src="/images/commerce.svg"
-                  className="logo cursor-pointer"
-                  alt="Logo"
-                />
+            <Link  href="/">
+              <a style={{color:`#39603D`}}>
+              Tristen's Art Shop
               </a>
             </Link>
           </div>
           <div className="d-flex">
             <Link href="/login">
-              <a className="font-color-black login">
+              <a style={{color:`#39603D`}}>
                 Login
               </a>
             </Link>

@@ -76,7 +76,7 @@ export default class SocialMedia extends React.Component {
             <div className="px-3 footer-follow--title">
               <p
                 className="font-size-display1 mb-3"
-                style={{ maxWidth: '26rem' }}
+                style={{ maxWidth: '26rem', color:'#39603D' }}
               >
                 Follow us on Instagram for more updates
               </p>
@@ -85,7 +85,7 @@ export default class SocialMedia extends React.Component {
                   href="/about"
                   className="d-flex py-3 align-items-center font-color-black borderbottom border-color-black"
                 >
-                  <p className="mr-3">Follow us</p>
+                  <p style={{color:'#39603D' }} className="mr-3">Follow us</p>
                   <img src="/icon/arrow-long-right.svg" alt="Arrow icon"/>
                 </a>
               </div>

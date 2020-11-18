@@ -11,20 +11,19 @@ const reviews = [
     date: 'December, 2019'
   },
   {
-    stars: '3.5',
-    title: 'So comfortable!',
-    description:
-      'I sized up just in case and kind of wished I hadn’t. Very comfortable and I live in them exclusively during the weekend.',
+    stars: ' ',
+    title: ' ',
+    description: '',
     reviewBy: 'Heidi C.',
     date: 'December, 2019'
   },
   {
     stars: '4',
-    title: 'Comfy but thin',
+    title: ' ',
     description:
-      'Comfortable but kinda thin for a pant. I typically wear a 32/33 pant and had to size up to XL for these to not fit like a legging. Have been wearing pretty solid for a month of so and there\'s some pilling, but not a lot. Good price for OK product.',
-    reviewBy: 'Heidi C.',
-    date: 'December, 2019'
+      ' ',
+    reviewBy: ' ',
+    date: ' '
   },
   {
     stars: '5',
