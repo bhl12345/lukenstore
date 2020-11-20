@@ -38,7 +38,7 @@ export default class HeroSection extends Component {
                 }}
               >
                 <p style={{color:`white` ,fontWeight: `bold`}} className="font-size-display5 font-family-secondary mb-4 text-center hero-header">
-                  Tristen's Art 
+                  Tristen's Art Shop
                 </p>
                 <p style={{color:`white` ,fontWeight: `bold`}} className="text-transform-uppercase font-size-title mb-5 hero-subheader">
                   Original Designs
