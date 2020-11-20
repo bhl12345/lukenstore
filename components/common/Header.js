@@ -159,7 +159,7 @@ class Header extends Component {
           <div className="d-flex">
             <Link href="/login">
               <a style={{color:`#39603D`}}>
-                Login
+               
               </a>
             </Link>
             <div
