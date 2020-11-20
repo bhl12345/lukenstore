@@ -37,14 +37,14 @@ export default class HeroSection extends Component {
                   backgroundImage: `url("${image}")`
                 }}
               >
-                <p style={{color:`#164A41`}} className="font-size-display5 font-family-secondary mb-4 text-center hero-header">
+                <p style={{color:`white` ,fontWeight: `bold`}} className="font-size-display5 font-family-secondary mb-4 text-center hero-header">
                   Tristen's Art 
                 </p>
-                <p style={{color:`#164A41`}} className="text-transform-uppercase font-size-title mb-5 hero-subheader">
+                <p style={{color:`white` ,fontWeight: `bold`}} className="text-transform-uppercase font-size-title mb-5 hero-subheader">
                   Original Designs
                 </p>
                 <Link  href="/collection">
-                  <a style={{color:`black`}} className="d-flex align-items-center bg-transparent border border-color-white h-56 px-5 ">
+                  <a style={{color:`white` ,fontWeight: `bold`}} className="d-flex align-items-center bg-transparent border border-color-white h-56 px-5 ">
                     Shop now
                   </a>
                 </Link>
